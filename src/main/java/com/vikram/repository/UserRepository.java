@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.vikram.model.User;
 
 @Repository
-public interface UserRepository extends JpaRepository<User, Long>{
+public interface UserRepository extends JpaRepository<User, String>{
 
+	
 }

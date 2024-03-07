@@ -19,8 +19,6 @@ import lombok.Setter;
 public class User {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private Long id;
 	private String userName;
 	private String password;
 	private String secret;
